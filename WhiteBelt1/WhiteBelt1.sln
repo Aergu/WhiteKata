@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata1", "Kata1\Kata1.csproj", "{4AFB37C4-10F1-41D5-AEBA-21B783412B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniKata1", "MiniKata1\MiniKata1.csproj", "{49C4E124-107B-4982-A458-295F6299530F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniKata2", "MiniKata2\MiniKata2.csproj", "{3EE122C4-7858-4714-9A8E-289F498CB8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniKata3", "MiniKata3\MiniKata3.csproj", "{13221B22-F2A0-4C9A-91A2-26DA4A613379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AFB37C4-10F1-41D5-AEBA-21B783412B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFB37C4-10F1-41D5-AEBA-21B783412B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFB37C4-10F1-41D5-AEBA-21B783412B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFB37C4-10F1-41D5-AEBA-21B783412B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C4E124-107B-4982-A458-295F6299530F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C4E124-107B-4982-A458-295F6299530F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C4E124-107B-4982-A458-295F6299530F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C4E124-107B-4982-A458-295F6299530F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE122C4-7858-4714-9A8E-289F498CB8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE122C4-7858-4714-9A8E-289F498CB8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE122C4-7858-4714-9A8E-289F498CB8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE122C4-7858-4714-9A8E-289F498CB8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13221B22-F2A0-4C9A-91A2-26DA4A613379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13221B22-F2A0-4C9A-91A2-26DA4A613379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13221B22-F2A0-4C9A-91A2-26DA4A613379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13221B22-F2A0-4C9A-91A2-26DA4A613379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
