@@ -6,23 +6,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        int playerLuck = 6;
-        string input = ""; // Necessary variables
+        Random randomizedPlayerLuck = new Random();
+        int playerLuck = randomizedPlayerLuck.Next(1, 11);
+        string input = ""; 
         
         Console.WriteLine("You encounter an enemy! Do you want to attempt an attack? (yes/no)");
         input = Console.ReadLine();
         if (input.ToLower() == "yes")
         {
-            if (playerLuck > 7)
+            if (playerLuck > 5)
             {
                 Console.WriteLine("The attack was successful!");
             }
 
-            if (playerLuck == 6 || playerLuck == 7)
+            if (playerLuck == 3 || playerLuck == 4  || playerLuck == 5)
             {
                 Console.WriteLine("The attack barely succeeded!");
             }
-            else
+            else if (playerLuck < 3)
             {
                 Console.WriteLine("The attack missed!");
             }
